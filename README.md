@@ -5,26 +5,33 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 
 <br />
 <p align="center">
-    <a href="https://grandnode.com/">
-        <img src="https://grandnode.com/Themes/DefaultClean/Content/images/logo.png" alt="Logo" width="160">
-    </a>
+  <a href="https://grandnode.com/">
+    <img src="https://grandnode.com/Themes/DefaultClean/Content/images/logo.png" alt="Logo" width="160">
+  </a>
 
-    <h3 align="center">GrandNode</h3>
+  <h3 align="center">GrandNode</h3>
 
-    <p align="center">
-        Cloud friendly, All-in-One e-Commerce Platform
-        <br />
-        <a href="https://grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme"><strong>Explore the project »</strong></a>
-        <br />
-        <br />
-        <a href="https://demo.grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme">View Demo</a> ·
-        <a href="https://github.com/grandnode/grandnode/issues">Report Bug</a> ·
-        <a href="https://github.com/grandnode/grandnode/issues">Request Feature</a> ·
-        <a href="https://grandnode.com/boards/?utm_source=github&utm_medium=link&utm_campaign=readme">Visit forum</a> ·
-        <a href="https://grandnode.com/grandnode-themes/?utm_source=github&utm_medium=link&utm_campaign=readme">Premium Themes</a> ·
-        <a href="https://grandnode.com/extensions/?utm_source=github&utm_medium=link&utm_campaign=readme">Integrations & Plugins</a> ·
-        <a href="https://grandnode.com/premium-support-packages/?utm_source=github&utm_medium=link&utm_campaign=readme">Premium support</a>
-    </p>
+  <p align="center">
+    Cloud friendly, All-in-One e-Commerce Platform
+    <br />
+    <a href="https://grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme"><strong>Explore the project »</strong></a>
+    <br />
+    <br />
+    ·
+    <a href="https://demo.grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme">View Demo</a>
+    ·
+    <a href="https://github.com/grandnode/grandnode/issues">Report Bug</a>
+    .
+    <a href="https://github.com/grandnode/grandnode/issues">Request Feature</a>
+    ·
+    <a href="https://grandnode.com/boards/?utm_source=github&utm_medium=link&utm_campaign=readme">Visit forum</a>
+    ·
+    <a href="https://grandnode.com/grandnode-themes/?utm_source=github&utm_medium=link&utm_campaign=readme">Premium Themes</a>
+    ·
+    <a href="https://grandnode.com/extensions/?utm_source=github&utm_medium=link&utm_campaign=readme">Integrations & Plugins</a>
+    ·
+    <a href="https://grandnode.com/premium-support-packages/?utm_source=github&utm_medium=link&utm_campaign=readme">Premium support</a>
+  </p>
 </p>
 
 
