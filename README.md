@@ -54,7 +54,7 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 
 ## About The Project
 
-![GithHub Header](https://grandnode.com/content/images/uploaded/Blog/Black Simple Technology Presentation.jpg)
+![GithHub Header](https://grandnode.com/content/images/uploaded/Blog/gitbanner.jpg)
 
 GrandNode is an e-commerce platform for developing online stores. It gives you possibility to create highly advanced, good-looking online stores which have unlimited power of customization. 
 
