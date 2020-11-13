@@ -1,12 +1,12 @@
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HFRGJMMY9KF7C) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/grandnode/Lobby) [![Build
 status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/develop?svg=true)](https://ci.appveyor.com/project/KrzysztofPajak/grandnode/branch/develop) [![Build Status](https://travis-ci.org/grandnode/grandnode.svg?branch=develop)](https://travis-ci.org/grandnode/grandnode)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/acbd143050984c1983d7cb0bd10b3472)](https://www.codacy.com/app/grandnode/grandnode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=grandnode/grandnode&amp;utm_campaign=Badge_Grade)
-![Github All Releases](https://img.shields.io/github/downloads/grandnode/grandnode/total.svg) [![Demo](https://img.shields.io/badge/DEMO-HERE-green.svg)](https://demo.grandnode.com/) 
+![Github All Releases](https://img.shields.io/github/downloads/grandnode/grandnode/total.svg) [![Demo](https://img.shields.io/badge/DEMO-HERE-green.svg)](https://demo.grandnode.com/)
 
 <br />
 <p align="center">
   <a href="https://grandnode.com/">
-    <img src="https://grandnode.com/Themes/DefaultClean/Content/images/logo.png" alt="Logo" width="160">
+    <img src="https://grandnode.com/content/images/uploaded/arts/git_header.jpg" alt="Logo">
   </a>
 
   <h3 align="center">GrandNode</h3>
@@ -53,10 +53,9 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 
 
 
-<!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![GithHub Header](https://grandnode.com/content/images/uploaded/arts/git_header.jpg)
+![GithHub Header]()
 
 GrandNode is an e-commerce platform for developing online stores. It
 gives you possibility to create highly advanced, good-looking online stores which have unlimited power of customization. 
