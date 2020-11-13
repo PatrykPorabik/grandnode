@@ -39,28 +39,27 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
+* [Why GrandNode?](#about-the-project)
+  * [Technology Stack](#built-with)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
+  * [Online demo](#online-demo)
 * [Usage](#usage)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
 
 
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![GithHub Header](https://grandnode.com/content/images/uploaded/arts/git_header.jpg)
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`
+GrandNode is an e-commerce platform for developing online stores. It
+gives you possibility to create highly advanced, good-looking online stores which have unlimited power of customization. 
 
 
 ### Built With
@@ -78,23 +77,26 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
+GrandNode requires .NET Core 3.1, MongoDB 4.0+, and OS-specific dependency tools. 
 
 ### Installation
 
-1. Clone the repo
-```sh
-git clone https://github.com/github_username/repo_name.git
-```
-2. Install NPM packages
-```sh
-npm install
-```
+GrandNode can be installed in a few different ways. Note: The develop branch is the development version of GrandNode and it may be unstable. To use the
+latest stable version, download it from the Releases page or switch to a release branch. 
 
+1. Clone the repo
+* Docker 
+```
+sh docker run -d -p 127.0.0.1:27017:27017 --name mongodb mongo 
+docker run -d -p 80:80 --name grandnode --link mongodb:mongo grandnode/develop
+``` 
+If you want to download the latest stable version of GrandNode please use the following command, where x.xx is a number of GrandNode release: 
+```
+sh docker pull grandnode/grandnode:x.xx 
+```
+Feel free to visit our [detailed guide about GrandNode installation.](https://grandnode.com/how-to-install-grandnode-on-linux-ubuntu-1604)
+
+Install GrandNode with one click on [DigitalOcean](https://marketplace.digitalocean.com/apps/grandnode) ![DigitalOcean_Logo](https://grandnode.com/content/images/uploaded/digitalocean1.png)
 
 
 <!-- USAGE EXAMPLES -->
