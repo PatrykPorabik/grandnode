@@ -17,11 +17,10 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
     <a href="https://grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme"><strong>Explore the project »</strong></a>
     <br />
     <br />
-    ·
     <a href="https://demo.grandnode.com/?utm_source=github&utm_medium=link&utm_campaign=readme">View Demo</a>
     ·
     <a href="https://github.com/grandnode/grandnode/issues">Report Bug</a>
-    .
+    ·
     <a href="https://github.com/grandnode/grandnode/issues">Request Feature</a>
     ·
     <a href="https://grandnode.com/boards/?utm_source=github&utm_medium=link&utm_campaign=readme">Visit forum</a>
