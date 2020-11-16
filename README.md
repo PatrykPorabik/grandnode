@@ -103,7 +103,8 @@ Install GrandNode with one click on [DigitalOcean](https://marketplace.digitaloc
 #### Backend #### 
 [https://demo.grandnode.com/admin](https://demo.grandnode.com/admin) 
 [![ScreenShot](https://grandnode.com/content/images/uploaded/showcase/backend.JPG)](https://demo.grandnode.com/admin)
-Demo is restoring once per day to the original state. Access to the admin panel: 
+Demo is restoring once per day to the original state. Access to the admin panel:
+
 Admin email: admin@yourstore.com 
 Admin password: 123456
 
@@ -126,55 +127,15 @@ See the [open issues](https://github.com/github_username/repo_name/issues) for a
 <!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+:star: Star us on GitHub - it's the first step to become a GrandNode supporter! GrandNode is an open source online shopping solution, each developer is welcome and encouraged to contribute with their own improvements and enhancements.
+GrandNode is mostly written in ASP.NET. Other languages used in the project are HTML, CSS, JavaScript, MongoDB. To start with us, you should do this few steps: 1. Create your own GitHub account. 2. Fork the GrandNode to your GitHub account 3. Clone the
+forked project to your local machine. 4. After that, create a branch for your own changes 5. Change the files. 6. Push your changes from local machine to your fork in your GitHub account 7. It's time to create a pull request for your changes on the GrandNode
+project. If you don't know how to do it, you can read more about pull request [here](https://help.github.com/articles/about-pull-requests/) 8. Wait for the information. One of our developers will comment your changes and approve it or will suggest some
+improvements in your code. And that's all, you are GrandNode official contributor! [Coding standards and guides](https://docs.grandnode.com/developer-guides)
 
 
 
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=flat-square
-[contributors-url]: https://github.com/github_username/repo/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=flat-square
-[forks-url]: https://github.com/github_username/repo/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=flat-square
-[stars-url]: https://github.com/github_username/repo/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=flat-square
-[issues-url]: https://github.com/github_username/repo/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=flat-square
-[license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/github_username
-[product-screenshot]: images/screenshot.png
+Distributed under the GNU General Public License v3.0. It's available [here](https://github.com/grandnode/grandnode/blob/develop/LICENSE)
