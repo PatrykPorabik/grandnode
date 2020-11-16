@@ -84,16 +84,17 @@ latest stable version, download it from the Releases page or switch to a release
 1. Clone the repo
 * Docker 
 ```
-sh docker run -d -p 127.0.0.1:27017:27017 --name mongodb mongo 
+docker run -d -p 127.0.0.1:27017:27017 --name mongodb mongo 
 docker run -d -p 80:80 --name grandnode --link mongodb:mongo grandnode/develop
 ``` 
 If you want to download the latest stable version of GrandNode please use the following command, where x.xx is a number of GrandNode release: 
 ```
-sh docker pull grandnode/grandnode:x.xx 
+docker pull grandnode/grandnode:x.xx 
 ```
 Feel free to visit our [detailed guide about GrandNode installation.](https://grandnode.com/how-to-install-grandnode-on-linux-ubuntu-1604)
 
-Install GrandNode with one click on [DigitalOcean](https://marketplace.digitalocean.com/apps/grandnode) ![DigitalOcean_Logo](https://grandnode.com/content/images/uploaded/digitalocean1.png)
+Install GrandNode with one click on [DigitalOcean](https://marketplace.digitalocean.com/apps/grandnode)
+
 
 ### Online demo 
 #### Frontend #### 
@@ -106,6 +107,7 @@ Install GrandNode with one click on [DigitalOcean](https://marketplace.digitaloc
 Demo is restoring once per day to the original state. Access to the admin panel:
 
 Admin email: admin@yourstore.com 
+
 Admin password: 123456
 
 
