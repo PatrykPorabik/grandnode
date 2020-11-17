@@ -6,7 +6,7 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 <br />
 <p align="center">
   <a href="https://grandnode.com/">
-    <img src="https://grandnode.com/content/images/uploaded/blogimages/4.80.0.gif" alt="Logo">
+    <img src="https://grandnode.com/content/images/uploaded/blogimages/4.80.0.jpg" alt="Logo">
   </a>
 
   <h1 align="center">GrandNode</h1>
