@@ -9,7 +9,7 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
     <img src="https://grandnode.com/content/images/uploaded/arts/git_header.jpg" alt="Logo">
   </a>
 
-  <h3 align="center">GrandNode</h3>
+  <h1 align="center">GrandNode</h1>
 
   <p align="center">
     Cloud friendly, All-in-One e-Commerce Platform
