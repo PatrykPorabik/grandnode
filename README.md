@@ -61,10 +61,7 @@ GrandNode is an e-commerce platform for developing online stores. It gives you p
 
 ### Built With
 
-* []()
-* []()
-* []()
-
+![Technology Stack](https://grandnode.com/content/images/uploaded/blogimages/technologystack.JPG)
 
 
 <!-- GETTING STARTED -->
