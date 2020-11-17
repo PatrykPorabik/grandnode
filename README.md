@@ -1,4 +1,4 @@
-[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=HFRGJMMY9KF7C) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/grandnode/Lobby) [![Build
+[![Build
 status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/develop?svg=true)](https://ci.appveyor.com/project/KrzysztofPajak/grandnode/branch/develop) [![Build Status](https://travis-ci.org/grandnode/grandnode.svg?branch=develop)](https://travis-ci.org/grandnode/grandnode)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/acbd143050984c1983d7cb0bd10b3472)](https://www.codacy.com/app/grandnode/grandnode?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=grandnode/grandnode&amp;utm_campaign=Badge_Grade)
 ![Github All Releases](https://img.shields.io/github/downloads/grandnode/grandnode/total.svg) [![Demo](https://img.shields.io/badge/DEMO-HERE-green.svg)](https://demo.grandnode.com/)
@@ -81,7 +81,6 @@ GrandNode requires .NET Core 3.1, MongoDB 4.0+, and OS-specific dependency tools
 GrandNode can be installed in a few different ways. Note: The develop branch is the development version of GrandNode and it may be unstable. To use the
 latest stable version, download it from the Releases page or switch to a release branch. 
 
-1. Clone the repo
 * Docker 
 ```
 docker run -d -p 127.0.0.1:27017:27017 --name mongodb mongo 
