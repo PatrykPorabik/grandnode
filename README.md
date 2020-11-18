@@ -118,7 +118,7 @@ Admin password: 123456
 
 ## Awesome projects
 
-[![Awesome projects](https://grandnode.com/content/images/uploaded/Blog/awesomeprojectsgit.JPG)](https://grandnode.com/showcase/?utm_source=github&utm_medium=link&utm_campaign=readme)
+[![Awesome projects](https://grandnode.com/content/images/uploaded/Blog/awesomeprojectsgit1.JPG)](https://grandnode.com/showcase/?utm_source=github&utm_medium=link&utm_campaign=readme)
 
 Check the [GrandNode Live Projects](https://grandnode.com/showcase/?utm_source=github&utm_medium=link&utm_campaign=readme).
 
@@ -128,10 +128,17 @@ Have you done something great with GrandNode? Let us know and get listed!
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
+We have a clear vision 
 
 <!-- CONTRIBUTING -->
 ## Contributing
+
+GrandNode is and always will be free and open-source.
+
+You can support the project in many several ways:
+- Contribute
+- Evangelize - Maybe drop some blog post, tweet, or LinkedIn publication? Mention us with #GrandNode. 
+- Become a partner - We have a special solution partner program for developers and agencies. Join us and you will receive all our paid themes and 10 premium plugins of your choice. [Check how to become a GrandNode partner.](https://grandnode.com/partnershipprogram/?utm_source=github&utm_medium=link&utm_campaign=readme)
 
 :star: Star us on GitHub - it's the first step to become a GrandNode supporter! GrandNode is an open source online shopping solution, each developer is welcome and encouraged to contribute with their own improvements and enhancements.
 
