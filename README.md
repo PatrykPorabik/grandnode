@@ -107,14 +107,21 @@ Before you start - please install, configure the nginx server, .NET Core 3.1+ an
 mkdir ~/source
 cd ~/source
 git clone - b x.xx https://github.com/grandnode/grandnode.git
-
+```
+```
 cd ~/source/grandnode
 dotnet restore GrandNode.sln
-
+```
+Now it's time to rebuild all of our plugins and publish application (command is pretty long because we've combined all commands in a single line, to ease up your work):
+```
 sudo dotnet build Plugins/Grand.Plugin.DiscountRequirements.Standard && sudo dotnet build Plugins/Grand.Plugin.ExchangeRate.McExchange && sudo dotnet build Plugins/Grand.Plugin.ExternalAuth.Facebook && sudo dotnet build Plugins/Grand.Plugin.Payments.CashOnDelivery && sudo dotnet build Plugins/Grand.Plugin.Payments.BrainTree && sudo dotnet build Plugins/Grand.Plugin.ExternalAuth.Google && sudo dotnet build Plugins/Grand.Plugin.Payments.PayPalStandard && sudo dotnet build Plugins/Grand.Plugin.Shipping.ByWeight && sudo dotnet build Plugins/Grand.Plugin.Shipping.FixedRateShipping && sudo dotnet build Plugins/Grand.Plugin.Shipping.ShippingPoint && sudo dotnet build Plugins/Grand.Plugin.Tax.CountryStateZip && sudo dotnet build Plugins/Grand.Plugin.Tax.FixedRate && sudo dotnet build Plugins/Grand.Plugin.Widgets.FacebookPixel && sudo dotnet build Plugins/Grand.Plugin.Widgets.GoogleAnalytics && sudo dotnet build Plugins/Grand.Plugin.Widgets.Slider && sudo dotnet publish Grand.Web -c Release -o /var/webapps/grandnode
-
+```
+Optional: Create the service file, to automatically restart your application.
+```
 sudo vi /etc/systemd/system/grandnode.service
-
+```
+Paste the following content, and save changes:
+```
 [Unit]
 Description=GrandNode
 
@@ -129,8 +136,9 @@ Environment=ASPNETCORE_ENVIRONMENT=Production
 
 [Install]
 WantedBy=multi-user.target
-
-
+```
+Enable the service and restart the GrandNode
+```
 sudo systemctl enable grandnode.service
 sudo systemctl start grandnode.service
 ``` 
