@@ -153,7 +153,11 @@ Install GrandNode with one click on [DigitalOcean](https://marketplace.digitaloc
 
 #### Backend #### 
 [https://demo.grandnode.com/admin](https://demo.grandnode.com/admin/?utm_source=github&utm_medium=link&utm_campaign=readme) 
-Demo is restoring once per day to the original state. Access to the admin panel:
+
+
+Demo is restoring once per day to the original state. 
+
+Access to the admin panel:
 
 Admin email: admin@yourstore.com 
 
@@ -169,12 +173,10 @@ Check the [GrandNode Live Projects](https://grandnode.com/showcase/?utm_source=g
 Have you done something great with GrandNode? Let us know and get listed!
 
 
-<!-- ROADMAP -->
 ## Roadmap
 
 We have a clear vision in which direction we would like to develop GrandNode. Ready roadmaps with milestones for future versions of GrandNode can be found in the [projects tab](https://github.com/grandnode/grandnode/projects).
 
-<!-- CONTRIBUTING -->
 ## Contributing
 
 GrandNode is and always will be free and open-source.
