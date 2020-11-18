@@ -58,6 +58,15 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 
 GrandNode is an e-commerce platform for developing online stores. It gives you possibility to create highly advanced, good-looking online stores which have unlimited power of customization. 
 
+### The business challenges
+
+GrandNode was designed to solve the most important business challenges from the world of digital shopping. The goal for us is to provide the platform with:
+* The high performance front-end, rendeded within miliseconds,
+* The high performance application to handle temporary and permanent traffic overloads,
+* Highly advanced e-commerce platform with unlimited possibilities of integration with existing third-party softwares
+* Fast development with modern codebase
+* Scalable e-commerce platform to grow with the business
+
 
 ### Built With
 
@@ -87,19 +96,19 @@ If you want to download the latest stable version of GrandNode please use the fo
 ```
 docker pull grandnode/grandnode:x.xx 
 ```
-Feel free to visit our [detailed guide about GrandNode installation.](https://grandnode.com/how-to-install-grandnode-on-linux-ubuntu-1604)
+Feel free to visit our [detailed guide about GrandNode installation.](https://grandnode.com/how-to-install-grandnode-on-linux-ubuntu-1604/?utm_source=github&utm_medium=link&utm_campaign=readme)
 
 Install GrandNode with one click on [DigitalOcean](https://marketplace.digitalocean.com/apps/grandnode)
 
 
 ### Online demo 
 #### Frontend #### 
-[https://demo.grandnode.com/](https://demo.grandnode.com/)
-[![ScreenShot](http://grandnode.com/content/images/uploaded/showcase/frontend.JPG)](https://demo.grandnode.com/) 
+[https://demo.grandnode.com/](https://demo.grandnode.com//?utm_source=github&utm_medium=link&utm_campaign=readme)
+[![ScreenShot](http://grandnode.com/content/images/uploaded/showcase/frontend.JPG)](https://demo.grandnode.com//?utm_source=github&utm_medium=link&utm_campaign=readme) 
 
 #### Backend #### 
-[https://demo.grandnode.com/admin](https://demo.grandnode.com/admin) 
-[![ScreenShot](https://grandnode.com/content/images/uploaded/showcase/backend.JPG)](https://demo.grandnode.com/admin)
+[https://demo.grandnode.com/admin](https://demo.grandnode.com/admin/?utm_source=github&utm_medium=link&utm_campaign=readme) 
+[![ScreenShot](https://grandnode.com/content/images/uploaded/showcase/backend.JPG)](https://demo.grandnode.com/admin/?utm_source=github&utm_medium=link&utm_campaign=readme)
 Demo is restoring once per day to the original state. Access to the admin panel:
 
 Admin email: admin@yourstore.com 
@@ -107,20 +116,19 @@ Admin email: admin@yourstore.com
 Admin password: 123456
 
 
-## Usage
+## Awesome projects
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+[![Awesome projects](https://grandnode.com/content/images/uploaded/Blog/awesomeprojectsgit.JPG)](https://grandnode.com/showcase/?utm_source=github&utm_medium=link&utm_campaign=readme)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+Check the [GrandNode Live Projects](https://grandnode.com/showcase/?utm_source=github&utm_medium=link&utm_campaign=readme).
 
+Have you done something great with GrandNode? Let us know and get listed!
 
 
 <!-- ROADMAP -->
 ## Roadmap
 
 See the [open issues](https://github.com/github_username/repo_name/issues) for a list of proposed features (and known issues).
-
-
 
 <!-- CONTRIBUTING -->
 ## Contributing
