@@ -96,6 +96,45 @@ If you want to download the latest stable version of GrandNode please use the fo
 ```
 docker pull grandnode/grandnode:x.xx 
 ```
+
+* Open locally with VS2019+
+
+Run the project in the Visual Studio 2019+, extract the source code package downloaded from Releases tab to a folder. Enter the extracted folder and double-click the GrandNode.sln solution file. Select the Plugins project, rebuild it, then select the GrandNode.Web project.
+
+* Host on Linux server 
+
+Before you start - please install, configure the nginx server, .NET Core 3.1+ and MongoDB 4.0+
+```
+mkdir ~/source
+cd ~/source
+git clone - b x.xx https://github.com/grandnode/grandnode.git
+
+cd ~/source/grandnode
+dotnet restore GrandNode.sln
+
+sudo dotnet build Plugins/Grand.Plugin.DiscountRequirements.Standard && sudo dotnet build Plugins/Grand.Plugin.ExchangeRate.McExchange && sudo dotnet build Plugins/Grand.Plugin.ExternalAuth.Facebook && sudo dotnet build Plugins/Grand.Plugin.Payments.CashOnDelivery && sudo dotnet build Plugins/Grand.Plugin.Payments.BrainTree && sudo dotnet build Plugins/Grand.Plugin.ExternalAuth.Google && sudo dotnet build Plugins/Grand.Plugin.Payments.PayPalStandard && sudo dotnet build Plugins/Grand.Plugin.Shipping.ByWeight && sudo dotnet build Plugins/Grand.Plugin.Shipping.FixedRateShipping && sudo dotnet build Plugins/Grand.Plugin.Shipping.ShippingPoint && sudo dotnet build Plugins/Grand.Plugin.Tax.CountryStateZip && sudo dotnet build Plugins/Grand.Plugin.Tax.FixedRate && sudo dotnet build Plugins/Grand.Plugin.Widgets.FacebookPixel && sudo dotnet build Plugins/Grand.Plugin.Widgets.GoogleAnalytics && sudo dotnet build Plugins/Grand.Plugin.Widgets.Slider && sudo dotnet publish Grand.Web -c Release -o /var/webapps/grandnode
+
+sudo vi /etc/systemd/system/grandnode.service
+
+[Unit]
+Description=GrandNode
+
+[Service]
+WorkingDirectory=/var/webapps/grandnode
+ExecStart=/usr/bin/dotnet /var/webapps/grandnode/Grand.Web.dll
+Restart=always
+RestartSec=10
+SyslogIdentifier=dotnet-grandnode
+User=www-data
+Environment=ASPNETCORE_ENVIRONMENT=Production
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl enable grandnode.service
+sudo systemctl start grandnode.service
+``` 
 Feel free to visit our [detailed guide about GrandNode installation.](https://grandnode.com/how-to-install-grandnode-on-linux-ubuntu-1604/?utm_source=github&utm_medium=link&utm_campaign=readme)
 
 Install GrandNode with one click on [DigitalOcean](https://marketplace.digitalocean.com/apps/grandnode)
