@@ -167,7 +167,7 @@ Have you done something great with GrandNode? Let us know and get listed!
 <!-- ROADMAP -->
 ## Roadmap
 
-We have a clear vision 
+We have a clear vision in which direction we would like to develop GrandNode. Ready roadmaps with milestones for future versions of GrandNode can be found in the [projects tab](https://github.com/grandnode/grandnode/projects).
 
 <!-- CONTRIBUTING -->
 ## Contributing
