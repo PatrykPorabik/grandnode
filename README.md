@@ -6,7 +6,7 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
 <br />
 <p align="center">
   <a href="https://grandnode.com/">
-    <img src="https://grandnode.com/content/images/uploaded/blogimages/githubnew.jpg" alt="Logo">
+    <img src="https://grandnode.com/content/images/uploaded/Blog/githubnew1.jpg" alt="Logo">
   </a>
 
   <h1 align="center">GrandNode</h1>
@@ -44,11 +44,10 @@ status](https://ci.appveyor.com/api/projects/status/ox0qebg3wv3dp30e/branch/deve
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Online demo](#online-demo)
-* [Usage](#usage)
+* [Awesome projects](#Awesome-projects)
 * [Roadmap](#roadmap)
 * [Contributing](#contributing)
 * [License](#license)
-* [Contact](#contact)
 
 
 
