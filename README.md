@@ -70,7 +70,7 @@ GrandNode was designed to solve the most important business challenges from the 
 
 ### Built With
 
-![Technology Stack](https://grandnode.com/content/images/uploaded/blogimages/technologystack.JPG)
+![Technology Stack](https://grandnode.com/content/images/uploaded/Blog/technologystack1.JPG)
 
 
 <!-- GETTING STARTED -->
@@ -143,11 +143,9 @@ Install GrandNode with one click on [DigitalOcean](https://marketplace.digitaloc
 ### Online demo 
 #### Frontend #### 
 [https://demo.grandnode.com/](https://demo.grandnode.com//?utm_source=github&utm_medium=link&utm_campaign=readme)
-[![ScreenShot](http://grandnode.com/content/images/uploaded/showcase/frontend.JPG)](https://demo.grandnode.com//?utm_source=github&utm_medium=link&utm_campaign=readme) 
 
 #### Backend #### 
 [https://demo.grandnode.com/admin](https://demo.grandnode.com/admin/?utm_source=github&utm_medium=link&utm_campaign=readme) 
-[![ScreenShot](https://grandnode.com/content/images/uploaded/showcase/backend.JPG)](https://demo.grandnode.com/admin/?utm_source=github&utm_medium=link&utm_campaign=readme)
 Demo is restoring once per day to the original state. Access to the admin panel:
 
 Admin email: admin@yourstore.com 
